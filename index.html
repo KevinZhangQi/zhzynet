@@ -1,292 +1,329 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartDine.AI - Intelligent Restaurant Marketing</title>
+    <meta name="theme-color" content="#ffffff">
+    <title>SmartDine.AI - Restaurant Marketing Made Simple</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar">
+<body class="antialiased">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <a href="#" class="logo">SmartDine<span>.AI</span></a>
-            <div class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#benefits">Benefits</a>
-                <a href="#pricing">Pricing</a>
+            <a href="/" class="brand">
+                SmartDine<span class="text-accent">.AI</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-menu">
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
                 <a href="#contact" class="btn-primary">Get Started</a>
             </div>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Transform Your Restaurant with AI-Powered Marketing</h1>
-                <p class="hero-subtitle">Automate your marketing, increase revenue, and focus on what matters most - your food and customers.</p>
-                <div class="hero-cta">
-                    <a href="#demo" class="btn-primary">Watch Demo</a>
-                    <a href="#contact" class="btn-secondary">Schedule Consultation</a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <h3>40%</h3>
-                        <p>Average Revenue Increase</p>
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="overline">AI-Powered Restaurant Marketing</span>
+                    <h1 id="hero-heading" class="balance-text">Grow Your Restaurant While You Focus on What Matters</h1>
+                    <p class="hero-subtitle">Let AI handle your marketing while you create amazing dining experiences</p>
+                    
+                    <div class="cta-group">
+                        <a href="#demo" class="btn-primary btn-lg">
+                            <i class="fas fa-play-circle"></i>
+                            See How It Works
+                        </a>
+                        <a href="#contact" class="btn-secondary btn-lg">Book Free Demo</a>
                     </div>
-                    <div class="stat">
-                        <h3>1000+</h3>
-                        <p>Restaurants Served</p>
-                    </div>
-                    <div class="stat">
-                        <h3>24/7</h3>
-                        <p>AI-Powered Marketing</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <section class="features" id="features">
-        <div class="container">
-            <div class="section-header">
-                <span class="badge">Features</span>
-                <h2>Smart Solutions for Modern Restaurants</h2>
-                <p>Leverage AI technology to streamline your marketing efforts and boost customer engagement</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Marketing Automation</h3>
-                    <p>Let AI handle your marketing campaigns 24/7, ensuring consistent customer engagement and optimal targeting</p>
-                    <ul class="feature-list">
-                        <li>Smart Customer Segmentation</li>
-                        <li>Automated Campaign Management</li>
-                        <li>Real-time Performance Optimization</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Data-Driven Insights</h3>
-                    <p>Make informed decisions with advanced analytics and customer behavior tracking</p>
-                    <ul class="feature-list">
-                        <li>Customer Behavior Analysis</li>
-                        <li>Revenue Impact Tracking</li>
-                        <li>Competitive Intelligence</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <h3>Performance-Based Pricing</h3>
-                    <p>Only pay for results. Our success is tied to your success</p>
-                    <ul class="feature-list">
-                        <li>No Upfront Costs</li>
-                        <li>Pay Per Performance</li>
-                        <li>Transparent ROI Tracking</li>
+                    <ul class="social-proof" role="list">
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <span>4.9/5 rating</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>1000+ restaurants</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-award"></i>
+                            <span>Industry leader</span>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="hero-pattern"></div>
+        </section>
 
-    <section class="benefits" id="benefits">
-        <div class="container">
-            <div class="section-header">
-                <span class="badge">Benefits</span>
-                <h2>Why Choose SmartDine.AI?</h2>
-                <p>Experience the future of restaurant marketing with our cutting-edge AI solution</p>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <img src="images/automation.jpg" alt="Marketing Automation">
-                    <div class="benefit-content">
-                        <h3>Effortless Marketing</h3>
-                        <p>Focus on your restaurant while AI handles your marketing strategy</p>
-                        <ul>
-                            <li>Automated Campaign Management</li>
-                            <li>24/7 Customer Engagement</li>
-                            <li>Smart Content Generation</li>
+        <section id="solutions" class="solutions" aria-labelledby="solutions-heading">
+            <div class="container">
+                <span class="section-tag">Solutions</span>
+                <h2 id="solutions-heading" class="section-title balance-text">Marketing That Works While You Sleep</h2>
+                <p class="section-subtitle">Automate your marketing with AI that understands restaurants</p>
+
+                <div class="solutions-grid">
+                    <article class="solution-card">
+                        <div class="card-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Smart Marketing</h3>
+                        <p>AI learns your customers' preferences and automatically creates personalized campaigns</p>
+                        <ul class="feature-list" role="list">
+                            <li>24/7 Campaign Management</li>
+                            <li>Custom Audience Targeting</li>
+                            <li>Automated Content Creation</li>
                         </ul>
-                    </div>
-                </div>
-                <div class="benefit-card reverse">
-                    <img src="images/efficiency.jpg" alt="Operational Efficiency">
-                    <div class="benefit-content">
-                        <h3>Maximum Efficiency</h3>
-                        <p>Replace manual marketing efforts with intelligent automation</p>
-                        <ul>
-                            <li>Zero Manual Operations</li>
-                            <li>Intelligent Task Prioritization</li>
-                            <li>Automated Performance Reports</li>
+                    </article>
+
+                    <article class="solution-card">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Real Results</h3>
+                        <p>See exactly how your marketing performs with clear, actionable insights</p>
+                        <ul class="feature-list" role="list">
+                            <li>Revenue Attribution</li>
+                            <li>Customer Insights</li>
+                            <li>ROI Tracking</li>
                         </ul>
-                    </div>
-                </div>
-                <div class="benefit-card">
-                    <img src="images/roi.jpg" alt="Return on Investment">
-                    <div class="benefit-content">
-                        <h3>Guaranteed ROI</h3>
-                        <p>Performance-based pricing ensures you only pay for results</p>
-                        <ul>
-                            <li>Pay-Per-Performance Model</li>
-                            <li>Transparent Cost Structure</li>
-                            <li>No Results, No Fee</li>
+                    </article>
+
+                    <article class="solution-card">
+                        <div class="card-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3>Pay for Results</h3>
+                        <p>Only pay when our marketing brings you results. No risk, just rewards.</p>
+                        <ul class="feature-list" role="list">
+                            <li>Performance-Based Pricing</li>
+                            <li>No Upfront Costs</li>
+                            <li>Transparent Billing</li>
                         </ul>
-                    </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <span class="badge">Success Stories</span>
-                <h2>What Our Clients Say</h2>
-                <p>Join hundreds of successful restaurants that trust SmartDine.AI</p>
-            </div>
-            <div class="testimonial-slider">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"SmartDine.AI transformed our marketing strategy. Our customer engagement increased by 40% and revenue grew significantly, all while reducing our marketing workload."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/owner1.jpg" alt="Restaurant Owner">
-                        <div>
-                            <h4>Michael Chen</h4>
-                            <p>Owner, The Garden Kitchen</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"The AI-driven approach to marketing has revolutionized how we connect with our customers. It's like having a marketing team working 24/7 at a fraction of the cost."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/owner2.jpg" alt="Restaurant Owner">
-                        <div>
-                            <h4>Sarah Williams</h4>
-                            <p>Owner, Urban Plates</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section id="benefits" class="benefits" aria-labelledby="benefits-heading">
+            <div class="container">
+                <span class="section-tag">Benefits</span>
+                <h2 id="benefits-heading" class="section-title balance-text">Focus on Your Food, Not Marketing</h2>
+                <p class="section-subtitle">Let AI handle the marketing while you create amazing dining experiences</p>
 
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <div class="section-header">
-                <span class="badge">Pricing</span>
-                <h2>Simple, Transparent Pricing</h2>
-                <p>Choose the plan that best fits your restaurant's needs</p>
-            </div>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Starter</h3>
-                        <div class="price">
-                            <span>15%</span>
-                            <p>of marketing spend</p>
+                <div class="benefits-grid">
+                    <article class="benefit-card">
+                        <div class="benefit-content">
+                            <i class="fas fa-clock"></i>
+                            <h3>Save Time</h3>
+                            <p>No more late nights managing social media or planning promotions</p>
+                            <ul role="list">
+                                <li>Automated Campaign Management</li>
+                                <li>Smart Content Creation</li>
+                                <li>24/7 Customer Engagement</li>
+                            </ul>
                         </div>
-                    </div>
-                    <ul class="pricing-features">
-                        <li>AI Marketing Automation</li>
-                        <li>Basic Analytics</li>
-                        <li>Weekly Performance Reports</li>
-                        <li>Email Support</li>
-                    </ul>
-                    <a href="#contact" class="btn-primary">Get Started</a>
-                </div>
-                <div class="pricing-card featured">
-                    <div class="pricing-header">
-                        <h3>Professional</h3>
-                        <div class="price">
-                            <span>12%</span>
-                            <p>of marketing spend</p>
-                        </div>
-                    </div>
-                    <ul class="pricing-features">
-                        <li>All Starter Features</li>
-                        <li>Advanced Analytics</li>
-                        <li>Custom Marketing Strategy</li>
-                        <li>Priority Support</li>
-                    </ul>
-                    <a href="#contact" class="btn-primary">Get Started</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Enterprise</h3>
-                        <div class="price">
-                            <span>Custom</span>
-                            <p>contact us for pricing</p>
-                        </div>
-                    </div>
-                    <ul class="pricing-features">
-                        <li>All Professional Features</li>
-                        <li>Multi-Location Management</li>
-                        <li>Custom Integration</li>
-                        <li>24/7 VIP Support</li>
-                    </ul>
-                    <a href="#contact" class="btn-primary">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <img src="images/automation.jpg" alt="Restaurant owner focusing on food preparation while AI handles marketing" width="400" height="300" loading="lazy">
+                    </article>
 
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Transform Your Restaurant Marketing?</h2>
+                    <article class="benefit-card">
+                        <div class="benefit-content">
+                            <i class="fas fa-coins"></i>
+                            <h3>Save Money</h3>
+                            <p>Cut marketing costs while improving results with AI efficiency</p>
+                            <ul role="list">
+                                <li>Pay-for-Performance Model</li>
+                                <li>No Wasted Ad Spend</li>
+                                <li>Optimized ROI</li>
+                            </ul>
+                        </div>
+                        <img src="images/roi.jpg" alt="Dashboard showing increased revenue and reduced marketing costs" width="400" height="300" loading="lazy">
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="benefit-content">
+                            <i class="fas fa-users"></i>
+                            <h3>Get More Customers</h3>
+                            <p>Attract new diners and keep them coming back for more</p>
+                            <ul role="list">
+                                <li>Smart Customer Targeting</li>
+                                <li>Loyalty Programs</li>
+                                <li>Personalized Promotions</li>
+                            </ul>
+                        </div>
+                        <img src="images/efficiency.jpg" alt="Happy customers enjoying their dining experience" width="400" height="300" loading="lazy">
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="stories" class="stories" aria-labelledby="stories-heading">
+            <div class="container">
+                <span class="section-tag">Success Stories</span>
+                <h2 id="stories-heading" class="section-title balance-text">Restaurant Owners Love SmartDine.AI</h2>
+                
+                <div class="story-cards">
+                    <article class="story-card">
+                        <blockquote>
+                            <p>"SmartDine.AI completely changed how we do marketing. Our revenue is up 40% and I finally have time to focus on the kitchen."</p>
+                        </blockquote>
+                        <footer>
+                            <img src="images/owner1.jpg" alt="Michael Chen" width="64" height="64">
+                            <div>
+                                <cite>Michael Chen</cite>
+                                <span>Owner, The Garden Kitchen</span>
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="story-card">
+                        <blockquote>
+                            <p>"The AI does a better job than our old marketing team, at a third of the cost. The results speak for themselves."</p>
+                        </blockquote>
+                        <footer>
+                            <img src="images/owner2.jpg" alt="Sarah Williams" width="64" height="64">
+                            <div>
+                                <cite>Sarah Williams</cite>
+                                <span>Owner, Urban Plates</span>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing" aria-labelledby="pricing-heading">
+            <div class="container">
+                <span class="section-tag">Pricing</span>
+                <h2 id="pricing-heading" class="section-title balance-text">Simple, Results-Based Pricing</h2>
+                <p class="section-subtitle">Only pay when our marketing brings you results</p>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h3>Starter</h3>
+                            <p class="price">
+                                <span>15%</span>
+                                of marketing revenue
+                            </p>
+                        </div>
+                        <ul class="pricing-features" role="list">
+                            <li>AI Marketing Automation</li>
+                            <li>Basic Analytics</li>
+                            <li>Email Support</li>
+                            <li>Weekly Reports</li>
+                        </ul>
+                        <a href="#contact" class="btn-outline">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card featured">
+                        <div class="card-header">
+                            <div class="popular-tag">Most Popular</div>
+                            <h3>Professional</h3>
+                            <p class="price">
+                                <span>12%</span>
+                                of marketing revenue
+                            </p>
+                        </div>
+                        <ul class="pricing-features" role="list">
+                            <li>All Starter Features</li>
+                            <li>Advanced Analytics</li>
+                            <li>Priority Support</li>
+                            <li>Custom Strategies</li>
+                        </ul>
+                        <a href="#contact" class="btn-primary">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h3>Enterprise</h3>
+                            <p class="price">Custom</p>
+                        </div>
+                        <ul class="pricing-features" role="list">
+                            <li>All Pro Features</li>
+                            <li>Multi-Location Support</li>
+                            <li>Dedicated Account Manager</li>
+                            <li>Custom Integration</li>
+                        </ul>
+                        <a href="#contact" class="btn-outline">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" aria-labelledby="cta-heading">
+            <div class="container">
+                <h2 id="cta-heading" class="balance-text">Ready to Transform Your Restaurant Marketing?</h2>
                 <p>Join hundreds of successful restaurants using SmartDine.AI</p>
                 <div class="cta-buttons">
-                    <a href="#contact" class="btn-primary">Schedule Demo</a>
-                    <a href="#learn-more" class="btn-secondary">Learn More</a>
+                    <a href="#contact" class="btn-primary btn-lg">Schedule Free Demo</a>
+                    <a href="#pricing" class="btn-secondary btn-lg">View Pricing</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="#" class="logo">SmartDine<span>.AI</span></a>
-                    <p>Intelligent restaurant marketing powered by AI</p>
+                    <a href="/" class="brand">
+                        SmartDine<span class="text-accent">.AI</span>
+                    </a>
+                    <p>Intelligent marketing for modern restaurants</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Follow us on Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Connect on LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <div class="footer-column">
+
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <div>
                         <h4>Product</h4>
-                        <a href="#features">Features</a>
-                        <a href="#benefits">Benefits</a>
-                        <a href="#pricing">Pricing</a>
+                        <ul role="list">
+                            <li><a href="#solutions">Solutions</a></li>
+                            <li><a href="#benefits">Benefits</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                        </ul>
                     </div>
-                    <div class="footer-column">
+                    <div>
                         <h4>Company</h4>
-                        <a href="#about">About Us</a>
-                        <a href="#careers">Careers</a>
-                        <a href="#contact">Contact</a>
+                        <ul role="list">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
                     </div>
-                    <div class="footer-column">
-                        <h4>Resources</h4>
-                        <a href="#blog">Blog</a>
-                        <a href="#case-studies">Case Studies</a>
-                        <a href="#help">Help Center</a>
+                    <div>
+                        <h4>Support</h4>
+                        <ul role="list">
+                            <li><a href="#help">Help Center</a></li>
+                            <li><a href="#privacy">Privacy</a></li>
+                            <li><a href="#terms">Terms</a></li>
+                        </ul>
                     </div>
-                </div>
+                </nav>
             </div>
+
             <div class="footer-bottom">
                 <p>&copy; 2024 SmartDine.AI. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
             </div>
         </div>
     </footer>
